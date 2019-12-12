@@ -24,7 +24,7 @@ For a company trying to be "Earth's most customer-centric company", you might th
  
 But Jeff isn't the only one who finds value in the process of writing. David McCullough goes further by saying: 
 
-> Writing is thinking. To write well is to think clearly. That's why it's so hard.</blockquote> - David McCullough 
+> Writing is thinking. To write well is to think clearly. That's why it's so hard.
 
 And here I think it's worth digging further to ask - why is thinking clearly important? *Obviously* - and particularly in the context of software engineering -  if you don't think clearly then you won't think of as good solution as a competitor who does. 
 
