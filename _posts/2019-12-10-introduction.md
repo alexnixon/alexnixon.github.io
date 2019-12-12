@@ -7,12 +7,12 @@ date: 2019-12-10
 I recently became aware of Jeff Bezos's policy of [banning PowerPoint](https://web.archive.org/web/20150730231457/https://blog.hirevue.com/sales/what-i-learned-from-jeff-bezos-about-sales-management) in meetings. The replacement is a multi-page "narrative" which is written by the meeting organizer (or team thereof) and distributed to all attendees at the start of the meeting - no pre-reading allowed - and discussion commences when everyone has made it to the end. 
 
 This is the original email: 
-
-> From: Bezos, Jeff 
-> Sent: Wednesday, June 09, 20014 6:02PM 
-> To: [REDACTED] 
-> Subject: Re: No powerpoint presentations from now on at steam 
-> A little more to help with the question "why." 
+<blockquote>
+> From: Bezos, Jeff  
+> Sent: Wednesday, June 09, 20014 6:02PM  
+> To: [REDACTED]  
+> Subject: Re: No powerpoint presentations from now on at steam  
+> A little more to help with the question "why."  
 > Well structured, narrative text is what we're after rather than just text. If someone builds a list of bullet points in word, that would be just as bad as powerpoint. 
 > The reason writing a good 4 page memo is harder than "writing" a 20 page powerpoint is because the narrative structure of a good memo forces better thought and better understanding of what's more important than what, and how things are related. 
 > Powerpoint-style presentations somehow give permission to gloss over ideas, flatten out any sense of relative importance, and ignore the interconnectedness of ideas. 
