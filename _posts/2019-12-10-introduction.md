@@ -8,10 +8,10 @@ I recently became aware of Jeff Bezos's policy of [banning PowerPoint](https://w
 
 This is the original email:
 
-*From: Bezos, Jeff*\
-*Sent: Wednesday, June 09, 20014 6:02PM*\
-*To: [REDACTED]*\
-*Subject: Re: No powerpoint presentations from now on at steam*\
+*From: Bezos, Jeff* \
+*Sent: Wednesday, June 09, 20014 6:02PM* \
+*To: [REDACTED]* \
+*Subject: Re: No powerpoint presentations from now on at steam* \
 \
 *A little more to help with the question "why."*\
 *Well structured, narrative text is what we're after rather than just text. If someone builds a list of bullet points in word, that would be just as bad as powerpoint.*\
