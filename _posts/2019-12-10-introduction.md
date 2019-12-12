@@ -7,7 +7,6 @@ date: 2019-12-10
 I recently became aware of Jeff Bezos's policy of [banning PowerPoint](https://web.archive.org/web/20150730231457/https://blog.hirevue.com/sales/what-i-learned-from-jeff-bezos-about-sales-management) in meetings. The replacement is a multi-page "narrative" which is written by the meeting organizer (or team thereof) and distributed to all attendees at the start of the meeting - no pre-reading allowed - and discussion commences when everyone has made it to the end. 
 
 This is the original email: 
-<blockquote>
 > From: Bezos, Jeff  
 > Sent: Wednesday, June 09, 20014 6:02PM  
 > To: [REDACTED]  
