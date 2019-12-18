@@ -81,3 +81,12 @@ ul.posts li {
 .centered {
     text-align: center;
 }
+
+.emailquote {
+	margin-left: 1em;
+	font-family: monospace;
+	font-style: italic;
+	padding-left: 0.3em;
+	line-height: 1.2em;
+	border-left: 5px solid grey;
+}
