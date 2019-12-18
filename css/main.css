@@ -80,6 +80,7 @@ ul.posts li {
 
 .centered {
     text-align: center;
+	font-size: 2em;
 }
 
 .emailquote {
@@ -88,5 +89,9 @@ ul.posts li {
 	font-style: italic;
 	padding-left: 0.3em;
 	line-height: 1.2em;
-	border-left: 5px solid grey;
+	border-left: 5px solid #666;
+}
+
+.footnotes {
+	font-size: small;
 }
