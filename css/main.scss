@@ -7,18 +7,26 @@ html {
   font-weight: lighter;
 }
 
-header {
-  margin: 0 0 3rem;
-  padding: 1.2rem 0;
-  border-bottom:0.133rem solid #333
-}
-
 body {
-  width: 70rem;
-  margin: 0 auto;
   font-size: 1.8rem;
   color: rgba(18,18,18,.87);
   background-color: #fdfdfd;
+}
+
+@media (max-width: 800px) {
+  body {
+    width: 90%;
+    margin: 0;
+    padding: 0 5%;
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    width: 70rem;
+    margin: 0 auto;
+    padding: 0;
+  }
 }
 
 blockquote {
@@ -57,19 +65,34 @@ blockquote {
   }
 }
 
-header .logo {
-  float: left;
+header {
+  margin: 0 0 3rem;
+  padding: 1.2rem 0;
+  border-bottom:0.133rem solid #333;
+  font-weight: lighter;
+
+  .logo {
+    a {
+      float: left;
+    }
+  }
+  
+  nav {
+    margin: 0;
+    text-align:right;
+  
+    a {
+      display: inline;
+      padding-left: 1rem;
+    }
+  }
 }
 
-nav {
-  text-align:right
-}
-
-nav ul, footer ul {
+footer ul {
     list-style: none;
     font-weight: lighter;
 }
-nav ul li, footer ul li {
+footer ul li {
     display: inline;
     margin-right: 2rem;
 }
