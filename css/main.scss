@@ -1,0 +1,148 @@
+---
+---
+
+html {
+  font-size: 62.5%;
+  font-family: 'Nunito', sans-serif;
+  font-weight: lighter;
+}
+
+header {
+  margin: 0 0 3rem;
+  padding: 1.2rem 0;
+  border-bottom:0.133rem solid #333
+}
+
+body {
+  width: 70rem;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  color: rgba(18,18,18,.87);
+  background-color: #fdfdfd;
+}
+
+blockquote {
+  display: block;
+  border-width: 0.2rem 0;
+  border-style: solid;
+  border-color: #eee;
+  padding: 1.5rem 0 0.5rem;
+  margin: 1.5rem 0;
+  position: relative;
+  text-align: center;
+  font-style: italic;
+  
+  &:before {
+    content: '\201C'; 
+    position: absolute;
+    top: 0rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fdfdfd;
+    width: 4rem;
+    height: 4rem;
+    margin: 0;
+    padding: 0;
+    font: 5em/1em 'PT Sans', sans-serif;
+    color: #666;
+    text-align: center;
+  }
+  
+  &:after {
+    content: "\2013 \2003" attr(cite);
+    display: block;
+    text-align: right;
+    font-size: 0.875em;
+    color: #666;
+  }
+}
+
+header .logo {
+  float: left;
+}
+
+nav {
+  text-align:right
+}
+
+nav ul, footer ul {
+    list-style: none;
+    font-weight: lighter;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 2rem;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+  font-family: "Lato","Ubuntu",sans-serif;
+  font-weight: lighter;
+  line-height: 1.3;
+  color: #333;
+}
+
+footer {
+  border-top: 1px solid #d5d5d5;
+  font-size: .8em;
+  text-align: center;
+}
+
+ul.posts { 
+  margin: 20px auto 40px; 
+  font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+.centered {
+  text-align: center;
+	font-size: 2em;
+}
+
+.emailquote {
+	margin-left: 2rem;
+	font-family: monospace;
+	font-style: italic;
+	padding-left: 1rem;
+	line-height: 1.8rem;
+	border-left: 0.5rem solid #666;
+}
+
+.post {
+  margin-bottom: 5rem;
+}
+
+.email-signup {
+  text-align: center;
+
+  h3 {
+    font-weight: lighter;
+  }
+  p {
+    font-weight: 50 !important;
+  }
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+  margin: auto;
+  display: block;
+}
+
+.footnotes {
+	font-size: small;
+}
+
+.post-list h1 {
+  margin-bottom: 0;
+}

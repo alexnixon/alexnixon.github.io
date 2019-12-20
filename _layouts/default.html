@@ -1,30 +1,40 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			<script async defer src="https://buttons.github.io/buttons.js"></script>
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-				<ul>
-					<li><a href="https://twitter.com/alexnixon_uk?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @alexnixon_uk</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
-					<li><a class="github-button" href="https://github.com/alexnixon" aria-label="Follow @alexnixon on GitHub">Follow @alexnixon</a></li>
-				</ul>
-			</footer>
-		</body>
-	</html>
+  <html>
+    <head>
+      <title>{{ page.title }}</title>
+      <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="/css/main.css">
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+      <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    </head>
+    <body>
+      <header>
+        <nav>
+          <div class="logo">
+            Alex Nixon
+          </div>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/archive">Archive</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container">
+      
+      {{ content }}
+      
+      </div><!-- /.container -->
+      <footer>
+        <ul>
+          <li>© Copyright 2019 Alex Nixon</li>
+          <li><a href="https://twitter.com/alexnixon_uk?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @alexnixon_uk</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+          <li><a class="github-button" href="https://github.com/alexnixon" aria-label="Follow @alexnixon on GitHub">Follow @alexnixon</a></li>
+        </ul>
+      </footer>
+    </body>
+  </html>

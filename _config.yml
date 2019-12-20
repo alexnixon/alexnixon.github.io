@@ -1,2 +1,5 @@
 name: Alex Nixon
 markdown: kramdown
+include: ['_pages']
+sass:
+  style: compact

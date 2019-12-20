@@ -1,16 +1,21 @@
---- 
-layout: post 
-title: "It's time to start writing" 
-date: 2019-12-10 
---- 
+---
+layout: post
+title: "It's time to start writing"
+teaser: "In 2004, Amazon's Jeff Bezos instructed a firm-wide ban on powerpoint. Starting from there, I explore how software engineers can use writing to increase their effectiveness."
+date: 2019-12-10
+---
  
-I recently became aware of Jeff Bezos's policy of [banning PowerPoint](https://web.archive.org/web/20150730231457/https://blog.hirevue.com/sales/what-i-learned-from-jeff-bezos-about-sales-management) in meetings. The replacement is a multi-page "narrative" which is written by the meeting organizer (or team thereof) and distributed to all attendees at the start of the meeting - no pre-reading allowed - and discussion commences when everyone has made it to the end. 
+I recently became aware of Jeff Bezos's dotcom-era policy of [banning PowerPoint](https://web.archive.org/web/20150730231457/https://blog.hirevue.com/sales/what-i-learned-from-jeff-bezos-about-sales-management) within Amazon. Instead, meeting organizers must write a multi-page "narrative" and distribute it to all attendees at the start of the meeting - denying any single person a head start - and only after everyone has finished reading do proceedings begin.
 
-This is the original email:
+This policy is particularly notable as it finds itself embedded in a company staffed largely by software engineers, who often have neither experience nor interest in writing prose. We feel most at home when transmitting ideas as algorithms, unambiguously described by mathematics and sequences of instructions. And the further we stray from this the more discontent we feel as the ambiguities of natural language leak through, needlessly eroding clarity.
+
+But on closer examination I believe this is neither about powerpoint nor about reading - it's about thinking. To see why we need to look beyond the headline.
+
+If we could peer into Jeff's 2004-era outbox we would find his original email:
 
 <div class="emailquote">
 From: Bezos, Jeff <br />
-Sent: Wednesday, June 09, 20014 6:02PM <br />
+Sent: Wednesday, June 09, 2004 6:02PM <br />
 To: [REDACTED] <br />
 Subject: Re: No powerpoint presentations from now on at steam <br />
 <br />
@@ -22,54 +27,59 @@ Powerpoint-style presentations somehow give permission to gloss over ideas, flat
 Jeff
 </div>
 
-From the biased position of someone writing their first blog post, I'm going to zoom in one a narrow point I believe Jeff is making here – it's primarily the *creation* of the material which forces better thought, not the *consumption*. Even if the first minute of every meeting involved the printed memo being ceremonially folded into a paper plane and propelled toward the bin, the act of writing would not be undone.
+The point being made is clear from the language: "writing" is mentioned twice but "reading" not at all. It's  *creation* which is important, not *consumption*. Even if the memo was written and immediately shredded, the act of writing would not be undone and the improvement to thought and understanding would persist.
 
-For a company trying to be [Earth's most customer-centric company](https://www.amazon.jobs/en/working/working-amazon), you might think that time would be best spent interacting with, say, *customers*, rather than crafting [multi-page narratives](https://www.sec.gov/Archives/edgar/data/1018724/000119312518121161/d456916dex991.htm). You could be forgiven for seeing a company with too much time on its hands, filling it with intellectual decadence.
- 
+Still, for a company trying to be [Earth's most customer-centric company](https://www.amazon.jobs/en/working/working-amazon), it is hard to shake the feeling that time would be best spent interacting with, say, *customers*, rather than crafting narratives.
+
 But Amazon is far from the first to recognise the value in the writing process. Some go even further:
 
 <blockquote cite="David McCullough">Writing is thinking. To write well is to think clearly. That's why it's so hard.</blockquote>
 
-And here I think it's worth digging further to ask - why is thinking clearly important? *Obviously* - in our context of software engineering - if you don't think clearly then any solutions you craft as an individual will be suboptimal. 
+And here I think it's worth digging even further to ask - why is thinking clearly important? *Obviously* - in our context of software engineering - if you don't think clearly then any solutions you craft as an individual will be suboptimal. 
 
 That is undoubtedly true. But more importantly, writing a coherent and logical narrative forces your thoughts into a shape which can be easily communicated to others and used to persuade. None of us work in isolation. There is little point in having the answer if you cannot convince others of its merit.
 
 <div class="centered">* * *</div> 
- 
-Somewhere in San Francisco there's a pizza encircled by a team of engineers who, having just heard of a new firm-wide mandate to migrate aging services to the cloud, are vehemently disagreeing about which technology to use. The Kubernetes guy knows that only his solution leads to a future free from tedious discussions of solved problems like authentication and service discovery. Three slices to the right the Nomad girl brims with confidence and espouses the virtues of single-purpose, orthogonal and composable components which are the *bedrock* of well-engineered software systems.
 
-After half an hour of the discussion bouncing from feature to feature to pro to con to bug to feature, and with only discarded crust remaining, everyone has learned something new. But no one is persuaded and no consensus has emerged. Though a useful exercise, such unstructured discussions are not an efficient mechanism for reaching agreement.
+Let's imagine a team of engineers. Having just been informed of the firm-wide mandate to migrate from in-house servers to the cloud, they must make the impactful and long-lasting decision about which technology to introduce. In an attempt to reach consensus they've gathered around a pizza and begin exchanging views.
 
-What is needed is for a single individual[^1] to spin a narrative which captures the entire journey from underlying business needs through to practicalities of implementation, in a comprehensive, flowing and logical manner. This is necessary to instill the confidence in others that this is not just the best technology in an abstract sense, it's the right choice for *our problem*, *our business*, and *our people* at *this point in time*.
+The Kubernetes guy *knows* that only his solution leads to a future free from tedious discussions around the solved problems of authentication and service discovery. Batteries must be included. Three slices to the right another engineer brims with confidence and espouses the virtues of Nomad - single-purpose, orthogonal and composable components are the *bedrock* of well-engineered software systems. Principles must come first.
 
-[^1]: more precisely I'd say *at least one* individual. If multiple people had conflicting initial thoughts then I would advocate they each produce their own narrative then bring them together with an [adversarial](https://en.wikipedia.org/wiki/Adversarial_process) approach, though that may not be suitable for all teams.
+After an hour of discussion bouncing from feature to feature to pro to con to bug to feature, everyone has learned something new. But no one is persuaded and no consensus has emerged. Though useful for knowledge exchange, such unstructured discussions are not an efficient mechanism for reaching agreement.
 
-Such narrative need not be a literary masterpiece but it must be focused, comprehensive, accurate and unbiased, and it must flow.
+What is needed to break the stalemate is for a single individual[^1] to spin a narrative which captures the journey from business need through to practicalities of implementation, in a comprehensive, flowing and logical manner. This would be persuasive - it would instill in others the confidence that this is not just the best technology in an abstract sense, it's the right choice for *our problem*, *our business*, and *our people* at *this point in time*.
 
-For this particular situation - the choice of a technology - the contents would likely touch on:   
+It would be useful for others to read this. But even if they didn't, the newfound clarity of mind of the creator would allow them to make an argument persuasive enough to break the stalemate of ideas.
+
+[^1]: more precisely I'd say *at least one* individual. If multiple people had conflicting initial thoughts then I would advocate they each produce their own narrative then bring them together with an [adversarial](https://en.wikipedia.org/wiki/Adversarial_process) approach, provided this fits in with the culture.
+
+For this particular situation - the choice of a technology - the writer will likely have thought about and touched on:   
 
 **The beginning** 
 
 - What were the underlying reasons for the decision to change technologies? Why is this worthwhile embarking on and what benefits will be seen?
 - What reason do we have for investigating this particular tech as a solution? What other alternatives are worth investigating? 
-- How high are the stakes? Are we laying the foundations of the cathedral or painting the bike shed? Is it likely we can easy switch later if things aren't working out? 
+- How high are the stakes? Are we laying the foundations of the cathedral or painting the bike shed? Can we easily switch later if things aren't working out? 
   
 **The middle** 
 
 - Does the tech being suggested have a mission statement or core guiding principles? How does that tie in with our problem and philosophy? 
 - If we roll with it, what's the end goal? When implementation is complete, what does the world look like? 
 - How might we get from where we are to where we want to be with minimal disruption? What might the transition period look like? How long, roughly? 
-- Are there any major unknowns or risks? Any existing in-house expertise? How do we have confidence there are none more outstanding? What steps might we take to reduce them? Play the devil's advocate and identify any and all flaws and address them head-on. 
+- Do we have any existing in-house expertise?
+- Are there any risks? What steps might we take to reduce them? Any [unknown unknowns](https://en.wikipedia.org/wiki/There_are_known_knowns)?
 - In what ways might this solution fare better than the alternative(s)? 
 - In what ways might the alternative(s) fare better than this? 
 
 **The end** 
-- Relating back to the underlying business needs and all key points we've identified so far, why is this the best option? 
+- Relate back to the underlying business needs and sum up with a recommendation, explaining why this the best option
 
-In this case, the technical content of the narrative would overlap substantially with a technical design document. But whereas a TDD is an end in itself, the physical output of this writing is merely a pleasant side-effect. The real output is the story left in the mind of the author. The process of organising thoughts into flowing natural language results in a deep understanding that translates into an ability to adapt the story at a moments notice to a level appropriate for convincing anyone of its merit, regardless of their level of technical expertise or involvement in discussions so far.
+In this case, the content of the narrative would overlap substantially with a technical design document. But whereas a TDD is an end in itself, the physical output of this writing is a pleasant side-effect. What matters are the organised thoughts left in the mind of the author. Like riding a bike, having competently translated them into natural language once before they will forever have the ability to do so again, orally and in real-time, adapting at a moments notice to a level appropriate for any audience regardless of their familiarity with the subject.
 
-And where a TDD is specialised tool, narratives are general. They scale. From the narrowest of technical issues up to the most fundamental questions of the vision and purpose of the company as a whole, there are no problems which resist clear-thinking.
+And unlike specialised tools, narratives are general. They scale. From the narrowest of technical issues up to the most fundamental question of the mission and purpose of the company as a whole, there are no problems which resist clear-thinking.
 
+<!--
 <div class="centered">* * *</div> 
 
 On reflection I find it slighly amusing that what I intended on being a brief introductory blog post has ended up as a slightly rambling justification as to why *if no one reads anything I write well it doesn't matter anyway*. I feel like my fragile ego owes me an apology for taking up so much screen space.
+-->
