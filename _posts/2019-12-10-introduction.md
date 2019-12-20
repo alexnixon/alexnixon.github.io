@@ -74,12 +74,8 @@ For this particular situation - the choice of a technology - the writer will lik
 **The end** 
 - Relate back to the underlying business needs and sum up with a recommendation, explaining why this the best option
 
-In this case, the content of the narrative would overlap substantially with a technical design document. But whereas a TDD is an end in itself, the physical output of this writing is a pleasant side-effect. What matters are the organised thoughts left in the mind of the author. Like riding a bike, having competently translated them into natural language once before they will forever have the ability to do so again, orally and in real-time, adapting at a moments notice to a level appropriate for any audience regardless of their familiarity with the subject.
+In this case, the content of the narrative would overlap substantially with a technical design document. But whereas a TDD is an end in itself, the physical output of this writing is a pleasant side-effect. What matters are the organised thoughts left in the mind of the author.
 
-And unlike specialised tools, narratives are general. They scale. From the narrowest of technical issues up to the most fundamental question of the mission and purpose of the company as a whole, there are no problems which resist clear-thinking.
+Having competently translated these thoughts into natural language once before, the author will have no trouble doing so again when called upon, orally and in real-time. And having considered the problem at several levels of analysis - as must be done to write well - they will, at a moments notice, be able to adapt their narrative to suit any audience, regardless of their existing knowledge.
 
-<!--
-<div class="centered">* * *</div> 
-
-On reflection I find it slighly amusing that what I intended on being a brief introductory blog post has ended up as a slightly rambling justification as to why *if no one reads anything I write well it doesn't matter anyway*. I feel like my fragile ego owes me an apology for taking up so much screen space.
--->
+Finally, unlike specialised tools, narratives are general. They scale. From the narrowest of technical issues up to the most fundamental question of the mission and purpose of the company as a whole, there are no problems which resist clear-thinking.
