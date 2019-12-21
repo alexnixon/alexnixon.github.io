@@ -1,6 +1,10 @@
 <!DOCTYPE html>
   <html>
     <head>
+      {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+      {% endif %}
+
       <title>{{ page.title }}</title>
       <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
