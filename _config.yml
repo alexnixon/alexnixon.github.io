@@ -1,5 +1,6 @@
 name: Alex Nixon
 markdown: kramdown
 include: ['_pages']
+highlighter: rouge
 sass:
   style: compact
