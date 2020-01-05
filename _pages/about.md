@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-The author
-----------
 I'm a technologist. For the first ~5 years of my career I worked at a then-startup called [SwiftKey](http://www.swiftkey.com). I joined very early on and worked on...a ton of things, from low-level C++ optimization all the way up to building initial cloud services for bulk language processing, and everything in between.
 
 I then moved to a quantitative hedge fund called [GSA Capital](www.gsacapital.com) and stayed for another five years. Such companies contain a huge amount of software and it's not always easy to explain to outsiders what it all does, but it's probably accurate to call my slice a combination of middle-office data management and multi-asset-class trade executions. It's much more interesting than it sounds, I promise.

@@ -6,3 +6,11 @@ sass:
   style: compact
 plugins:
   - jekyll-feed
+
+collections:
+  recommended_books:
+    order:
+      - sustainable-energy.md
+      - getting-to-yes.md
+      - how-to-win-friends-and-influence-people.md
+      - thinking-fast-and-slow.md

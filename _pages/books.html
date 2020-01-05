@@ -1,0 +1,22 @@
+---
+layout: page
+title: Recommended Books
+permalink: /books/
+---
+
+<p>I'd recommend reading these books. They've each given me that special feeling you get when reading something which is deeply true and deeply important. I think the feeling is one of connection with the author - <em>feeling</em> the writing just as strongly as the author themselves. And they have each changed my views of the world for the better.<p/>
+<p>I would have hoped to include some books on soft skills in software engineering but I haven't found any which are as impactful as the general "self-help-y" books here. They're just so damned good that, if you can internalize and put into practice their messages, I think they do more for your abilility to be effective in a team and effectively manage people than any specific engineering book might.</p>
+
+
+<div class="book-list">
+{% for book in site.recommended_books %}
+  <div class="book-item">
+    <div class="book-header">
+      <img class="book-cover" src="{{ book.cover }}"/>
+      <div class="book-title"> {{ book.title }}</div>
+      <div class="book-author"> {{ book.author }}</div>
+    </div>
+    <div class="book-description"> {{ book.content }}</div>
+  </div>
+{% endfor %}
+</div>
