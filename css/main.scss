@@ -129,6 +129,7 @@ h1 {
 
 footer {
   border-top: 1px solid $border-light;
+  margin-top: 2rem;
   font-size: .8em;
   text-align: center;
 }
@@ -158,6 +159,11 @@ ul.posts li {
 
 .post {
   margin-bottom: 5rem;
+}
+
+.post-image {
+  // Fix for narrow mobile screens
+  width: 100%;
 }
 
 .email-signup {
@@ -190,16 +196,19 @@ ul.posts li {
 
 // ------------- Books
 .book-list {
-  margin-top: 3rem;
+  margin-top: 2rem;
 
   .book-item {
-    padding-top: 2rem;
-    
+    padding: 4rem 0 2rem 0;
     border-top: 1px solid $border-light;
+    overflow: auto;
     
     .book-header {
+      overflow: auto;
+
       .book-cover {
-        height: 20rem;
+        height: auto;
+        width: 20rem;
         margin-right: 1rem;
       }
       
