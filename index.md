@@ -12,7 +12,7 @@ If you find anything I've written interesting, informative, imorral, impeccable 
   {% for post in site.posts %}
   <div class="book-item">
     <div class="book-header">
-      <img class="book-cover" src="{{ post.image }}"/>
+      <img alt="Cover image for blog post" class="book-cover" src="{{ post.image }}"/>
       <div class="book-title"><a href="{{ post.url }}"> {{ post.title }}</a></div>
       <div class="book-author"> {{ post.date | date_to_string }}</div>
     </div>
