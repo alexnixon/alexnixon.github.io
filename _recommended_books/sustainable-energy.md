@@ -2,6 +2,7 @@
 title: Sustainable Energy Without The Hot Air
 author: David MacKay
 cover: /img/books/sustainable-energy-without-the-hot-air-mackay.jpg
+link: https://www.amazon.com/gp/product/0954452933/ref=as_li_tl?ie=UTF8&tag=alexnixon-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=0954452933&linkId=006ae402d5202ac3735b2ea009e9a032
 ---
 
 I found this gem on [GatesNotes](http://www.gatesnotes.com). Bill Gates calls it "one of the best books on energy that has been written. If someone is going to read just one book I would recommend this one".

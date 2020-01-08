@@ -13,11 +13,6 @@ pre {
   padding: 1.5rem;
 }
 
-code {
-  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-  font-size: 1.2rem;
-}
-
 html {
   font-size: 62.5%;
   font-family: 'Nunito', sans-serif;
@@ -222,6 +217,10 @@ ul.posts li {
       }
     }
     
+    .book-buy {
+      text-align: center;
+    }
+
     .book-header {
       display: inline;
       
