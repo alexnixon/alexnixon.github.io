@@ -11,12 +11,14 @@ If you find anything I've written interesting, informative, imorral, impeccable 
 <div class="book-list">
   {% for post in site.posts %}
   <div class="book-item">
+    <a href="{{ post.url }}">
     <div class="book-header">
       <img alt="Cover image for blog post" class="book-cover" src="{{ post.image }}"/>
-      <div class="book-title"><a href="{{ post.url }}"> {{ post.title }}</a></div>
+      <div class="book-title"> {{ post.title }}</div>
       <div class="book-author"> {{ post.date | date_to_string }}</div>
     </div>
     <div class="book-description"><p>{{ post.teaser }}</p></div>
+    </a>
   </div>
   {% endfor %}
 </div>

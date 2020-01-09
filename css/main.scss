@@ -198,6 +198,10 @@ ul.posts li {
     border-top: 1px solid $border-light;
     overflow: auto;
     
+    a {
+      text-decoration: none;
+    }
+
     .book-header {
       overflow: auto;
 
