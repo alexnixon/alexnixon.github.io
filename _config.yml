@@ -14,3 +14,6 @@ collections:
       - getting-to-yes.md
       - how-to-win-friends-and-influence-people.md
       - thinking-fast-and-slow.md
+
+kramdown:
+  auto_ids: true
