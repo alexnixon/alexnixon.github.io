@@ -10,7 +10,7 @@ layout: default
   <div class="post_content">
     {{ content }}
   </div>
-  
+
 </div>
 
 <hr/>
@@ -18,9 +18,11 @@ layout: default
 <div class="email-signup">
   <h3>Before you go...</h3>
   <p class="email-signup-text">
-    Like this article? Sign up to receive a brief email whenever I write something new.
+    Like this article? Share this and sign up to receive a brief email whenever I write something new.
   </p>
   
+  {% include share-buttons.html %}
+
   <!-- Begin Mailchimp Signup Form -->
   <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
   <style type="text/css">

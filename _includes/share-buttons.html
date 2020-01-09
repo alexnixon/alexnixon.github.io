@@ -1,0 +1,67 @@
+<style>
+/* Share buttons */
+.sharebuttons {
+  margin: 0 auto 0 auto;
+}
+
+.sharebuttons ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.sharebuttons ul li {
+  display: inline;
+  margin: 5px;
+}
+
+.sharebuttons ul li a {
+  text-decoration: none;
+}
+
+.sharebuttons ul li svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.sharebuttons .reddit svg {
+  fill: #FF4500;
+}
+
+.sharebuttons .hn svg {
+  fill: #F0652F;
+}
+
+.sharebuttons .twitter svg {
+  fill: #1DA1F2;
+}
+
+.sharebuttons .linkedin svg {
+  fill: #0077B5;
+}
+</style>
+
+<div class="sharebuttons">
+  <ul>
+    <li class="reddit">
+      <a href="http://www.reddit.com/submit?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"" | uri_escape }}" target="_blank">
+        {% include social/reddit.svg %}
+      </a>
+    </li>
+    <li class="hn">
+      <a href="http://news.ycombinator.com/submitlink?u={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&t={{ page.title | default:"" | uri_escape}}" target="_blank">
+        {% include social/hn.svg %}
+      </a>
+    </li>
+    <li class="twitter">
+      <a href="https://twitter.com/intent/tweet?via=alexnixon_uk&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&text={{ page.title | default:"" | uri_escape}}" target="_blank">
+        {% include social/twitter.svg %}
+      </a>
+    </li>
+    <li class="linkedin">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"" | uri_escape}}" target="_blank">
+        {% include social/linkedin.svg %}
+      </a>
+    </li>
+  </ul>
+</div>
