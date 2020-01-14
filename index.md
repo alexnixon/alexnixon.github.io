@@ -8,16 +8,16 @@ Occasionally I have thoughts which I think are worth sharing. When that happens 
 
 If you find anything I've written interesting, informative, imorral, impeccable or any other adjective, then [let me know](/contact/)! If you'd like to be alerted when I post something new then [sign up](http://eepurl.com/gNIAJ5).
 
-<div class="book-list">
+<div class="post-list">
   {% for post in site.posts %}
-  <div class="book-item">
+  <div class="post-item">
     <a href="{{ post.url }}">
-    <div class="book-header">
-      <img alt="Cover image for blog post" class="book-cover" src="{{ post.image }}"/>
-      <div class="book-title"> {{ post.title }}</div>
-      <div class="book-author"> {{ post.date | date_to_string }}</div>
+    <div class="post-header">
+      <img alt="Cover image for blog post" class="post-cover" src="{{ post.image }}"/>
+      <div class="post-title"> {{ post.title }}</div>
+      <div class="post-author"> {{ post.date | date_to_string }}</div>
     </div>
-    <div class="book-description"><p>{{ post.teaser }}</p></div>
+    <div class="post-description"><p>{{ post.teaser }}</p></div>
     </a>
   </div>
   {% endfor %}
