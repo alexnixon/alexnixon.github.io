@@ -24,7 +24,7 @@ I work in finance. That means I go to the office, take off my coat, unlock my PC
 
 Within those programs I *really* don't want to accidentally add $3 to £4. If you logged on to your internet banking and saw a balance of £$7, you'd probably throw your laptop out of the window and Forrest Gump your way to a cave in the mountains, never to return.
 
-I would hazard a guess that most - if not all - Haskellites would tell you that with static types, preventing these kinds of errors is a walk in the park. And on that walk in the park you should avoid eye contact with any disheveled python programmers you come across, sitting cross-legged in puddles eating clods of mud with one hand and counting their dollarypounds with the other.[^python-legal].
+I would hazard a guess that most - if not all - Haskellites would tell you that with static types, preventing these kinds of errors is a walk in the park. And on that walk in the park you should avoid eye contact with any disheveled python programmers you come across, sitting cross-legged in puddles eating clods of mud with one hand and counting their dollarypounds with the other[^python-legal].
 
 [^python-legal]: LEGAL DISCLAIMER 2: that is obviously a joke. Python is great, Pythonistas are great, and optional typing exists.
 
