@@ -10,15 +10,15 @@ If you find anything I've written interesting, immoral, informative, ignorant or
 
 <div class="post-list">
   {% for post in site.posts %}
+  <a href="{{ post.url }}">
   <div class="post-item">
-    <a href="{{ post.url }}">
     <div class="post-header">
       <img alt="Cover image for blog post" class="post-cover" src="{{ post.image }}"/>
       <div class="post-title"> {{ post.title }}</div>
       <div class="post-author"> {{ post.date | date_to_string }}</div>
     </div>
     <div class="post-description"><p>{{ post.teaser }}</p></div>
-    </a>
   </div>
+  </a>
   {% endfor %}
 </div>

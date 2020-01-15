@@ -87,6 +87,7 @@ header {
   border-bottom:0.133rem solid #333;
   font-weight: lighter;
 
+
   .logo {
     a {
       float: left;
@@ -248,15 +249,20 @@ code.highlighter-rouge {
 .post-list {
   margin-top: 2rem;
 
+  :hover {
+    background-color: #f4f4f4;
+  }
+
+  a {
+    text-decoration: none;
+    color: $main-font-color;
+  }
+
   .post-item {
     padding: 4rem 0 2rem 0;
     border-top: 1px solid $border-light;
     overflow: auto;
 
-    a {
-      text-decoration: none;
-      color: $main-font-color;
-    }
 
     .post-header {
       overflow: auto;
