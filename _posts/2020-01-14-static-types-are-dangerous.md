@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Static types are dangerous"
+title: "Static types are dangerously interesting"
 teaser: "You can use static types to forbid certain bad behaviours from happening at runtime. However, they don't come for free. This post walks through a real-world example in Haskell and highlights a danger that often arises."
 image: /img/dynamic-types-funny-sign.png
 published: true
