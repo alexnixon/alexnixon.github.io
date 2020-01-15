@@ -209,7 +209,7 @@ But let's continue. Perhaps we can require that anyone calling our `plus` functi
 
 ### Attempt 3 - kindness begets kindness
 
-As we just saw, the aim now is to prove to the compiler than any time we add two `Money`'s together, they definitely have the same currency. We'll need to somehow bring the currency into the type - perhaps something which looks like `MoneyGBP` and `MoneyUSD`. Luckily there's some prior art to draw on here - the [safe-money](https://hackage.haskell.org/package/safe-money) library. This approach relies on some extensions:
+As we just saw, the aim now is to prove to the compiler that any time we add two `Money`'s together, they definitely have the same currency. We'll need to somehow bring the currency into the type - perhaps something which looks like `MoneyGBP` and `MoneyUSD`. Luckily there's some prior art to draw on here - the [safe-money](https://hackage.haskell.org/package/safe-money) library. This approach relies on some extensions:
 
 ```hs
 {-# LANGUAGE DataKinds      #-}
@@ -218,7 +218,7 @@ As we just saw, the aim now is to prove to the compiler than any time we add two
 
 If you're unfamiliar with what we mean by "kind", it's just the type of a type. If you want to learn more then read [this](https://diogocastro.com/blog/2018/10/17/haskells-kind-system-a-primer/) excellent blog post.
 
-Anyway - know you know all about kinds, we can define a `Money` type like so:
+Anyway - now you know all about kinds, we can define a `Money` type like so:
 
 ```hs
 newtype Money (currency :: Currency) =
