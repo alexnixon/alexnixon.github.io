@@ -2,6 +2,9 @@
 layout: default
 title: Alex on Code
 ---
+# Alex on Code
+{: style="text-align: center;" :}
+
 This is Alex on Code: the website of Alex Nixon, a London-based technologist.
 
 Occasionally I have thoughts which I think are worth sharing. When that happens I'll write them down and they'll appear here. Usually, but not always, they will be related to some aspect of programming, technology, or the craft of software engineering.
