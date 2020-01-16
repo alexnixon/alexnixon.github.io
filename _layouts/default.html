@@ -14,32 +14,50 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <script async defer src="https://buttons.github.io/buttons.js"></script>
       <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+      <script src="https://kit.fontawesome.com/9686a0ae04.js" crossorigin="anonymous"></script>
     </head>
     <body>
       <header>
-        <div class="logo">
-          <a href="/">Alex on Code</a>
+        <div class="header-content">
+          <a href="/">
+            <div class="logo">
+              <img class="face" src="/img/face.jpg"/>
+              <div class="logo-text">
+                <div>Alex</div>
+                <div>On</div>
+                <div>Code</div>
+              </div>
+            </div>
+          </a>
         </div>
-        <nav>
-          <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/books">Books</a>
-          <a href="/contact">Contact</a>
-          <a href="/feed.xml">RSS</a>
-        </nav>
       </header>
-      <div class="container">
-      
-      {{ content }}
-      
-      </div><!-- /.container -->
-      <footer>
-        <p>© Alex Nixon 2019 - 2020</p>
-        <a href="https://twitter.com/alexnixon_uk?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @alexnixon_uk</a><script async src="https://platform.twitter.com/widgets.js"></script>
-        <!-- <a class="github-button" href="https://github.com/alexnixon" aria-label="Follow @alexnixon on GitHub">Follow @alexnixon</a> -->
-        <a href="https://www.linkedin.com/in/alexnixon1/"><img src="/img/LI-Logo.png" style="height: 1.7rem;"/></a>
-      </footer>
 
+      <div class="wrap clearfix">
+        <nav>
+          <h3 class="nav-title">Resources</h3>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/books">Books</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li><a href="/feed.xml">RSS</a></li>
+          </ul>
+          <ul>
+            <li><a class="email-li" href="http://eepurl.com/gNIAJ5">Subscribe</a></li>
+            <li><a class="twitter-li" href="https://twitter.com/alexnixon_uk?ref_src=twsrc%5Etfw">Follow</a></li>
+          </ul>
+        </nav>
+
+        <div class="content">
+        
+        {{ content }}
+        
+        <footer>
+          <p>© Alex Nixon 2019 - 2020</p>
+        </footer>
+        
+        </div><!-- /.container -->
+      </div>
       {% if page.has_links %}
       <div id="amzn-assoc-ad-02e533a8-e7bc-40e3-bdd1-e0f6351edab2"></div><script async src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US&adInstanceId=02e533a8-e7bc-40e3-bdd1-e0f6351edab2"></script>
       {% endif %}
