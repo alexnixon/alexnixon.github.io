@@ -1,13 +1,5 @@
----
----
-
-@import url(syntax.css);
-
 $size-threshold: 800px;
-
-$main-font-color: rgba(18,18,18,.87);
 $code-background: #f5f5f5;
-$border-light: #d5d5d5;
 
 pre {
   border: 1px solid #ccc;
@@ -111,6 +103,7 @@ header {
 }
 
 nav {
+  // Small screens
   @media (max-width: $size-threshold) {
     width: 100%;
 
@@ -129,6 +122,7 @@ nav {
     }
   }
 
+  // Big screens
   @media (min-width: $size-threshold) {
     width: 25%;
     float: left;
@@ -155,7 +149,7 @@ nav {
     margin-right: 1rem;
   }
 
-  ul li {
+  ul {
     list-style: none;
   }
 }
@@ -168,14 +162,6 @@ nav {
   padding-bottom: 60px;
 }
 
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
-.clearfix:after { clear: both; }
-.clearfix { *zoom: 1; }
-
 .content {
   @media (min-width: $size-threshold) {
     width: 70%;
@@ -183,23 +169,17 @@ nav {
   }
 }
 
-footer ul {
-    list-style: none;
-    font-weight: lighter;
-}
-footer ul li {
-    display: inline;
-    margin-right: 2rem;
-}
 a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
+  text-decoration: none;
+  color: #999;
+
+  :hover {
     text-decoration: underline;
+  };
 }
+
 h1 {
-  font-family: "Lato","Ubuntu",sans-serif;
+  font-family: "Lato", "Ubuntu", sans-serif;
   font-weight: lighter;
   line-height: 1.3;
   color: #333;
@@ -216,15 +196,6 @@ footer {
   text-align: center;
 }
 
-ul.posts {
-  margin: 20px auto 40px;
-  font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
 .centered {
   text-align: center;
 	font-size: 2em;
@@ -239,14 +210,6 @@ ul.posts li {
 	border-left: 0.5rem solid #666;
 }
 
-.post {
-  margin-bottom: 5rem;
-}
-
-.post-image {
-  // Fix for narrow mobile screens
-  width: 100%;
-}
 
 .email-signup {
   text-align: center;
@@ -278,108 +241,4 @@ ul.posts li {
 code.highlighter-rouge {
   color: #d01040;
   background-color: #e5e5e5;
-}
-
-// ------------- Books
-.book-list {
-  margin-top: 2rem;
-
-  .book-item {
-    padding: 4rem 0 2rem 0;
-    border-top: 1px solid $border-light;
-    overflow: auto;
-
-    a {
-      text-decoration: none;
-    }
-
-    .book-header {
-      overflow: auto;
-
-      .book-cover {
-        height: auto;
-        width: 20rem;
-        margin-right: 1rem;
-      }
-
-      .book-title {
-        font-size: 2rem;
-        font-weight: bold;
-      }
-
-      .book-author {
-        font-size: 1.5rem;
-      }
-    }
-
-    .book-buy {
-      text-align: center;
-    }
-
-    .book-header {
-      display: inline;
-
-      img {
-        height: 20rem;
-        float: left;
-      }
-    }
-  }
-}
-
-// ------------- Post-list
-.post-list {
-  margin-top: 2rem;
-
-  :hover {
-    background-color: #f4f4f4;
-  }
-
-  a {
-    text-decoration: none;
-    color: $main-font-color;
-  }
-
-  .post-item {
-    padding: 4rem 0 2rem 0;
-    border-top: 1px solid $border-light;
-    overflow: auto;
-
-
-    .post-header {
-      overflow: auto;
-
-      .post-cover {
-        height: auto;
-        width: 20rem;
-        margin-right: 1rem;
-      }
-
-      .post-title {
-        font-size: 2rem;
-        font-weight: bold;
-      }
-
-      .post-author {
-        font-size: 1.5rem;
-      }
-    }
-
-    .post-description {
-        font-size: 1.6rem;
-    }
-
-    .post-buy {
-      text-align: center;
-    }
-
-    .post-header {
-      display: inline;
-
-      img {
-        height: 20rem;
-        float: left;
-      }
-    }
-  }
 }

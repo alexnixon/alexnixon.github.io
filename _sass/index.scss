@@ -1,0 +1,59 @@
+// CSS for the content of the main page
+
+.post-image {
+  // Fix for narrow mobile screens
+  width: 100%;
+}
+
+.post-list {
+  margin-top: 2rem;
+
+  :hover {
+    background-color: #f4f4f4;
+      }
+
+  a {
+    color: $main-font-color;
+
+    :hover {
+      text-decoration: none;
+    }
+  }
+
+  .post-item {
+    padding: 4rem 0 2rem 0;
+    border-top: 1px solid $border-light;
+    overflow: auto;
+
+    .post-header {
+      .post-cover {
+        height: auto;
+        width: 20rem;
+        margin-right: 1rem;
+      }
+
+      .post-title {
+        margin-top: 0;
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      .post-date {
+        font-size: 1.5rem;
+      }
+    }
+
+    .post-description {
+        font-size: 1.6rem;
+    }
+
+    .post-header {
+      display: inline;
+
+      img {
+        height: 20rem;
+        float: left;
+      }
+    }
+  }
+}

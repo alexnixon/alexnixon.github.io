@@ -1,0 +1,45 @@
+.book-list {
+  margin-top: 2rem;
+
+  .book-item {
+    padding: 4rem 0 2rem 0;
+    border-top: 1px solid $border-light;
+    overflow: auto;
+
+    a {
+      text-decoration: none;
+    }
+
+    .book-header {
+      overflow: auto;
+
+      .book-cover {
+        height: auto;
+        width: 20rem;
+        margin-right: 1rem;
+      }
+
+      .book-title {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      .book-author {
+        font-size: 1.5rem;
+      }
+    }
+
+    .book-buy {
+      text-align: center;
+    }
+
+    .book-header {
+      display: inline;
+
+      img {
+        height: 20rem;
+        float: left;
+      }
+    }
+  }
+}
