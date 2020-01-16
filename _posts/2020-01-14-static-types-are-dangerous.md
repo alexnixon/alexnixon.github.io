@@ -303,6 +303,9 @@ And returning to our `UnknownTrade` type - it has as many cases as the number of
 
 Is there a way of abstracting over this? I don't know, but am secretely hoping someone will tell me!
 
+UPDATE 2020-01-16: [rampion](http://reddit.com/user/rampion) has answered this with "yes" and a fantastic example of how to do so [here](https://www.reddit.com/r/haskell/comments/epkn0z/lets_get_dangerous/)
+{: style="font-size: 1.4rem; font-style: italic;" }
+
 ## Wrapping up
 
 Well for a start we didn't make it to nirvana. But it's the journey that counts, right?
