@@ -42,9 +42,9 @@ blockquote {
   position: relative;
   text-align: center;
   font-style: italic;
-  
+
   &:before {
-    content: '\201C'; 
+    content: '\201C';
     position: absolute;
     top: 0rem;
     left: 50%;
@@ -58,7 +58,7 @@ blockquote {
     color: #666;
     text-align: center;
   }
-  
+
   &:after {
     content: "\2013 \2003" attr(cite);
     display: block;
@@ -70,25 +70,25 @@ blockquote {
 
 header {
   background-color: #101010;
-  
+
   .header-content {
     margin: 0 auto;
     padding: 1.2rem 0;
     border-bottom:0.133rem solid #333;
     font-weight: bold;
-    
+
     width: 100%;
     max-width: 1000px;
 
     a:hover {
       text-decoration: none;
     }
-    
+
     .logo {
       display: block;
       text-transform: uppercase;
       padding-left: 1.2rem;
-      
+
       .logo-text {
         color: #ffffff;
         text-align: center;
@@ -96,7 +96,7 @@ header {
         vertical-align: middle;
         padding-left: 1rem;
       }
-      
+
       .face {
         width: 8rem;
         height: 8rem;
@@ -113,11 +113,11 @@ header {
 nav {
   @media (max-width: $size-threshold) {
     width: 100%;
-    
+
     .nav-title {
       display: none;
     }
-    
+
     ul {
       text-align: center;
       overflow: hidden;
@@ -144,12 +144,12 @@ nav {
     font-family: "Font Awesome 5 Pro"; font-weight: 900; content: "\f0e0";
     margin-right: 1rem;
   }
-  
+
   .twitter-li::before {
     font-family: "Font Awesome 5 Brands"; content: "\f099";
     margin-right: 1rem;
   }
-  
+
   .linkedin-li::before {
     font-family: "Font Awesome 5 Brands"; font-weight: 900; content: "\f08c";
     margin-right: 1rem;
@@ -179,7 +179,7 @@ nav {
 .content {
   @media (min-width: $size-threshold) {
     width: 70%;
-    float: right;  
+    float: right;
   }
 }
 
@@ -216,8 +216,8 @@ footer {
   text-align: center;
 }
 
-ul.posts { 
-  margin: 20px auto 40px; 
+ul.posts {
+  margin: 20px auto 40px;
   font-size: 1.5em;
 }
 
@@ -288,7 +288,7 @@ code.highlighter-rouge {
     padding: 4rem 0 2rem 0;
     border-top: 1px solid $border-light;
     overflow: auto;
-    
+
     a {
       text-decoration: none;
     }
@@ -301,24 +301,24 @@ code.highlighter-rouge {
         width: 20rem;
         margin-right: 1rem;
       }
-      
+
       .book-title {
         font-size: 2rem;
         font-weight: bold;
       }
-      
+
       .book-author {
         font-size: 1.5rem;
       }
     }
-    
+
     .book-buy {
       text-align: center;
     }
 
     .book-header {
       display: inline;
-      
+
       img {
         height: 20rem;
         float: left;
