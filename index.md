@@ -15,7 +15,7 @@ If you find anything I've written interesting, immoral, informative, ignorant or
   <a href="{{ post.url }}">
   <div class="post-item">
     <div class="post-header">
-      <img alt="Cover image for blog post" class="post-cover" src="{{ post.image }}"/>
+      <img alt="Cover image for blog post" class="post-cover" src="{{ post.image-small }}"/>
       <h2 class="post-title"> {{ post.title }}</h2>
       <div class="post-date"> {{ post.date | date_to_string }}</div>
     </div>
