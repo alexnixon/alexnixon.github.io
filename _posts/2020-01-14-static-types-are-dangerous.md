@@ -47,7 +47,7 @@ I'd like model a list of trades. The data looks like this:
 
 The first line here means: a trade of **100** shares of **VOD.L** were bought at a price of **1** **GBP**[^ccy].
 
-[^ccy]: A GBP is a Great British Pound (£). USD is United States Dollars (£), and JPY is Japanese Yen (¥)
+[^ccy]: A GBP is a Great British Pound (£). USD is United States Dollars ($), and JPY is Japanese Yen (¥)
 
 Then, I want to write a function which calculates the *total notional in each currency*. The word *notional* is a fancy way of saying `price * quantity`. Think of it as "value of the thing that changed hands".
 
